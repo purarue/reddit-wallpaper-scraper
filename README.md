@@ -16,7 +16,7 @@ A general summary on how this was used by me:
 
 `python3 classify.py`, to classify images into mobile/square/landscape, verify with [`sxiv`](https://github.com/muennich/sxiv) (e.g. `sxiv -t - < mobile.txt`), and then `python3 classify.py --link-files` to create hardlinks of each of those files into their corresponding directories.
 
-A [custom keybinding](https://github.com/seanbreckenridge/dotfiles/blob/4934eb9a4aa76ad870d159b26b5235dea1a62c4a/.config/sxiv/exec/key-handler) with `sxiv` allows me to "delete" files, by moving any files I don't want to `/tmp` (which would be removed on system restart):
+A [custom keybinding](https://github.com/purarue/dotfiles/blob/4934eb9a4aa76ad870d159b26b5235dea1a62c4a/.config/sxiv/exec/key-handler) with `sxiv` allows me to "delete" files, by moving any files I don't want to `/tmp` (which would be removed on system restart):
 
 ```
 sxiv ./mobile
